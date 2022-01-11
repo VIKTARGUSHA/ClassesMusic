@@ -1,5 +1,8 @@
 package Style;
+import java.util.*;
 
-public class PopMusic {
-int a;
-}
+public class PopMusic extends Style{
+    protected String school;
+    protected String style;
+    }
+
