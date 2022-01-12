@@ -2,14 +2,10 @@ package Style;
 import java.util.*;
 
 public class Style {
-   protected String style, singer, land, duration, songName;
+   protected String singer, land, duration, songName;
    protected int numberOfSingers, yearOfrelease;
 
    private String musicName = "myMusic";
-
-   public String getStyle(){
-       return style;
-   }
 
     public String getSinger(){
         return singer;
@@ -34,5 +30,9 @@ public class Style {
     public String getMusicName() {return musicName;}
 
     public  String getSongName(){ return songName;}
+
+    public String toString(){
+       return ("--@@@@@---" + singer + " " + songName + " " + land + " " + duration + " " + numberOfSingers );
+    }
 
 }
