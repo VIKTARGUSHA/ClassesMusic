@@ -1,9 +1,10 @@
 package Style.Pop;
-import Style.Style;
+import Style.SomeSong;
 
-import java.util.*;
-
-public class PopMusic extends Style {
-    protected String style = "Pop";
+public class PopMusic extends SomeSong {
+    //protected String style = "Pop";
+    public PopMusic(){
+        style = "Pop";
+    }
     }
 

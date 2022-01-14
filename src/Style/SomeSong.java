@@ -1,8 +1,8 @@
 package Style;
 import java.util.*;
 
-public class Style {
-   protected String singer, land, duration, songName;
+public class SomeSong {
+   protected String singer, land, duration, songName, style;
    protected int numberOfSingers, yearOfrelease;
 
    private String musicName = "myMusic";
@@ -30,6 +30,8 @@ public class Style {
     public String getMusicName() {return musicName;}
 
     public  String getSongName(){ return songName;}
+
+    public String getStyle(){return style;}
 
     public String toString(){
        return ("--@@@@@---" + singer + " " + songName + " " + land + " " + duration + " " + numberOfSingers );

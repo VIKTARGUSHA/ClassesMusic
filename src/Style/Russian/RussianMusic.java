@@ -1,8 +1,9 @@
 package Style.Russian;
 
-import Style.Style;
+import Style.SomeSong;
 
-public class RussianMusic extends Style {
-    String style = "RussianMusic";
-
+public class RussianMusic extends SomeSong {
+   public RussianMusic() {
+       super.style = "RussianMusic";
+   }
 }

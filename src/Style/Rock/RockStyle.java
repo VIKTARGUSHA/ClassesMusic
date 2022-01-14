@@ -1,10 +1,10 @@
 package Style.Rock;
 
-import Style.Style;
+import Style.SomeSong;
 
-public class RockStyle extends Style {
+public class RockStyle extends SomeSong {
     String style = "Rock";
     RockStyle(){
-        style = "Pop";
+        super.style = "Rock";
     }
 }
